@@ -1,0 +1,94 @@
+
+@font-face {
+  font-family: '8bitOperatorPlus-Regular';
+  src: url("../fonts/8bitOperatorPlus-Regular.ttf");
+}
+
+@font-face {
+  font-family: '8bitOperatorPlus-Bold';
+  src: url("../fonts/8bitOperatorPlus8-Bold.ttf")
+}
+
+* {
+  font-family: "8bitOperatorPlus-Regular";
+  color: white;
+}
+
+form {
+  font-size: 22px;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+h1, h2 {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 22px;
+  color: lightgray;
+  text-align: justify;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+.img-responsive {
+  height: 10%;
+}
+
+.box {
+  width: 300px;
+  border: 10px solid #222222;
+  padding: 10px;
+  float: none;
+}
+
+.underline {
+  border-bottom-color: yellow;
+}
+
+iframe {
+  display: block;
+  border: 10px solid #222222;
+  padding: 10px;
+  margin: 25px;
+}
+
+nav {
+  font-size: 24px;
+}
+
+.jumbotron {
+  background-image: url("../imagens/header.png");
+  background-size: cover;
+}
+
+/* Itens do template */
+
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+ .jumbotron {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #222222;
+  padding: 25px;
+}
